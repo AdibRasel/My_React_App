@@ -8,6 +8,10 @@ import UseEffecT from "./pages/useEffect";
 
 import LisTing from "./pages/Listing";
 
+import My_components from "./class_components/my_components";
+
+import Ref from "./class_components/ref";
+
 const App =()=>{
 return <section>
 
@@ -19,7 +23,11 @@ return <section>
 
     {/* <UseEffecT /> */}
 
-    <LisTing />
+    {/* <LisTing /> */}
+
+    {/* <My_components /> */}
+
+    <Ref />
 
 </section>
 }
