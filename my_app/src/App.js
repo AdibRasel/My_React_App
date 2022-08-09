@@ -12,6 +12,8 @@ import My_components from "./class_components/my_components";
 
 import Ref from "./class_components/ref";
 
+import Did_Mount from "./class_components/Did_mount";
+
 const App =()=>{
 return <section>
 
@@ -27,7 +29,9 @@ return <section>
 
     {/* <My_components /> */}
 
-    <Ref />
+    {/* <Ref /> */}
+
+    <Did_Mount />
 
 </section>
 }
